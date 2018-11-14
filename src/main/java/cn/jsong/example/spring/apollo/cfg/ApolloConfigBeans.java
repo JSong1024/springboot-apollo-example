@@ -23,7 +23,7 @@ public class ApolloConfigBeans {
 	 * 采用@ConfigurationProperties注解方式注入配置
 	 */
 	@Bean
-	public PersonalProperties userProperties() {
+	public PersonalProperties personalProperties() {
 		return new PersonalProperties();
 	}
 	
